@@ -88,7 +88,7 @@ const Form = ({
                     <LinearProgress color="success" />
                 ) : (
                     <span>
-                        {`${amount} ${baseCurrency} = ${
+                        {exchangeRate && `${amount} ${baseCurrency} = ${
                             exchangeRate * amount
                         } ${targetCurrency}`}
                     </span>

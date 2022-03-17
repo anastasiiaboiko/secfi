@@ -12,9 +12,10 @@ export const convertChartData = (dailySeries) => {
         high: Number(data[date]["2. high"]),
         low: Number(data[date]["3. low"]),
     }));
-}
+};
 
 export const convertExchangeRateData = (exchangeRate) => {
-    const data = exchangeRate["Realtime Currency Exchange Rate"]["5. Exchange Rate"];
+    const data =
+        exchangeRate["Realtime Currency Exchange Rate"]["5. Exchange Rate"];
     return data;
-}
+};
