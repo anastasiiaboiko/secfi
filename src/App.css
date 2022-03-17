@@ -1,0 +1,23 @@
+.app {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .app {
+    width: 90%;
+  }
+
+  .converter {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .app {
+    width: 75%;
+  }
+}

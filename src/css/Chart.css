@@ -1,0 +1,16 @@
+.chart-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #181c1f;
+    box-sizing: border-box;
+    padding: 1.3rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+@media (min-width: 800px) {
+    .chart-container {
+        width: 60%;
+        border-radius: 1rem;
+    }
+}
