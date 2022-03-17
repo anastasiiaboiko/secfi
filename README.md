@@ -61,4 +61,8 @@ I decided to bootstrap my project with Create React App, as it quickly sets up t
 - write better unit tests (the ones I have are quite simple)
 - improve interface and experience (add icons to currencies to find them faster, make dropdown list not as long as it is now etc.)
 
+## Screenshots
+<img width="310" alt="Screenshot 1" src="https://user-images.githubusercontent.com/9774977/158901355-8491a61b-2b8a-4d97-89e7-6067e01b6e0d.png"/>
+<img width="500" alt="Screenshot 2" src="https://user-images.githubusercontent.com/9774977/158901360-0be0aa6e-eb62-4378-8d87-0f313c2848da.png"/>
+
 
